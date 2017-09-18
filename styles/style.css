@@ -6,7 +6,7 @@
         
         background-size: contain;
         width: 30%;
-        max-width: 30%;
+        /* max-width: 30%; */
         background-repeat: no-repeat;
        
         margin: 0;
@@ -45,11 +45,52 @@
         text-align: center;
     }
 
-    @media (max-width: 768px){
+    @media only screen and (max-width: 768px){
         .header{
             background-image: url("../images/5.jpg");
             background-attachment:fixed;
-            height: 40%;
+            height: 45%;
+            
+            position: fixed;
+            
+            background-size: contain;
+            width: 100%;
+            max-width: 100%;
+            background-repeat: no-repeat;
+           
+            margin: 0;
+            padding-left: 20px;
+            font-family: 'Asap Condensed';
+            font-size: 50px;
+            padding-top: 30px;
+            
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            
+        }
+
+        .header img{
+            border-radius: 100%;
+            width: 30%;
+            height: auto;
+            
+        }
+
+        .hero-text{
+            color: black;
+            background-color: white;
+            
+            text-align: center;
+        }
+    
+
+    }
+
+    @media only screen and (max-width: 600px){
+        .header{
+            background-image: url("../images/5.jpg");
+            background-attachment:fixed;
+            height: 35%;
+            
             position: fixed;
             
             background-size: contain;
@@ -76,7 +117,11 @@
         .hero-text{
             color: black;
             background-color: white;
-            padding-left: 30px;
+            
+            text-align: center;
         }
     
     }
+
+
+   
