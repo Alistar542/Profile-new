@@ -43,11 +43,12 @@
         background-color: white;
         border-radius: 3px;
         text-align: center;
+        
     }
 
     @media only screen and (max-width: 768px){
         .header{
-            background-image: url("../images/5.jpg");
+            background-image: url("../images/8.jpg");
             background-attachment:fixed;
             height: auto;
             
@@ -87,7 +88,7 @@
 
     @media only screen and (max-width: 600px){
         .header{
-            background-image: url("../images/5.jpg");
+            background-image: url("../images/8.jpg");
             background-attachment:fixed;
             height: auto;
             
