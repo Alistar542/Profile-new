@@ -96,7 +96,7 @@
             
             position: fixed;
             
-            background-size: contain;
+            background-size: cover;
             width: 100%;
             max-width: 100%;
             background-repeat: no-repeat;
