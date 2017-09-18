@@ -1,10 +1,10 @@
     .header{
-        background-image: url("../images/4.jpg");
+        background-image: url("../images/8.jpg");
         background-attachment:fixed;
         height: 100%;
         position: fixed;
         
-        background-size: contain;
+        background-size: cover;
         width: 30%;
         /* max-width: 30%; */
         background-repeat: no-repeat;
@@ -55,7 +55,7 @@
             
             position: fixed;
             
-            background-size: contain;
+            background-size: cover;
             width: 100%;
             max-width: 100%;
             background-repeat: no-repeat;
