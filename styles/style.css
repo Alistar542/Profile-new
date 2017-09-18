@@ -27,7 +27,7 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
-        
+        margin-bottom: 3%;
         
     }
     body{
@@ -43,6 +43,7 @@
         background-color: white;
         border-radius: 3px;
         text-align: center;
+        
         
     }
 
@@ -81,6 +82,7 @@
             background-color: white;
             
             text-align: center;
+            
         }
     
 
